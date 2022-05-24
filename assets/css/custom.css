@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+a.navbar-brand img{
+  width: 130px;
+  height: 24px;
+}
+
+.icon-color{
+  /* background: black; */
+}
+
+.carousel-caption {
+  bottom: 35%;
+  color: black;
+}
+
+.carousel-caption h2{
+  font-size: 42px;
+}
+
+.jumbo-img{
+  width: 296px;
+  height: 60px;
+}
+
+.jumbotron{
+  background-color: transparent;
+
+}
+.card{
+  padding-top: 20px;
+  padding-left: 20px;
+  flex: 20%;
+
+}
+
+.card > img{
+  width: 30px;
+  height: 51px;
+}
+
+.card .card-body{
+  padding: 126px 24px 26px 24px;
+  background: 26px 28px no-repeat;
+  background-size: auto 51px;
+}
