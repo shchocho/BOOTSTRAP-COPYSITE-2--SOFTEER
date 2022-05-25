@@ -19,6 +19,10 @@ a.navbar-brand img{
   font-size: 42px;
 }
 
+main{
+  min-height: 100vh
+}
+
 .jumbo-img{
   width: 296px;
   height: 60px;
@@ -44,4 +48,57 @@ a.navbar-brand img{
   padding: 126px 24px 26px 24px;
   background: 26px 28px no-repeat;
   background-size: auto 51px;
+}
+
+main > .container{
+  height: calc( 100vh - 140px);
+}
+
+.footer{
+  position: relative;
+  background-color: #f7f9fc;
+  height: 140px;
+}
+
+
+.icon-box{
+  position: absolute;
+  display: inline-block;
+  right: 50px;
+  bottom: 10%;
+}
+.icon-box a{
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 100%;
+  background-color: black;
+  filter: grayscale(1);
+  opacity: 0.5;
+}
+
+.icon-box a:hover{
+  transition: 0.8s;
+  background-color: red;
+  filter: grayscale(0);
+  opacity: 1;
+}
+.icon-box a:nth-child(2):hover{
+  transition: 0.8s;
+  background-color: green;
+}
+
+.icon-box a img{
+  position: absolute;
+  top: 25%;
+  left: 18%;
+}
+
+body.sub .jumbotron{
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-position-x: 200px;
+  background-size: 75px 51px;
 }
