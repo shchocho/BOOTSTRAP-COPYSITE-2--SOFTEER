@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 a.navbar-brand img{
   width: 130px;
   height: 24px;
@@ -51,10 +50,17 @@ main{
 }
 
 main > .container{
-  height: calc( 100vh - 140px);
+  position: relative;
+  margin-bottom: 50px;
 }
 
-.footer{
+main > .container > .container-serch{
+  position: absolute;
+  right:0;
+  top:0;
+}
+
+footer{
   position: relative;
   background-color: #f7f9fc;
   height: 140px;
@@ -101,4 +107,35 @@ body.sub .jumbotron{
   background-position: center left;
   background-position-x: 200px;
   background-size: 75px 51px;
+}
+
+
+
+.container .items{
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  padding: 0;
+  min-height: 100px;
+  margin: 0 12px 24px;
+}
+.container .items .bg-box{
+  height: 150px;
+  width: 100%;
+  border-radius: 20px;
+  background-size: cover;
+}
+
+.container .items img{
+  width: 100%;
+}
+.container .items h4{
+  padding: 10px 0;
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  height: 30px;
+  overflow: hidden;
 }
